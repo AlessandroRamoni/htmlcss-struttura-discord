@@ -147,3 +147,59 @@ article div p{
     background-color: lightseagreen;
 }
 
+footer{
+    background-color: #23272a;
+}
+
+footer ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+footer ul li{
+    color: #6578bd;
+}
+
+/* footer ul li:first-child{
+    font-size: 30px;
+} */
+
+footer ul li ul{
+    display: flex;
+    flex-direction: column;
+}
+
+footer ul li ul li{
+    color: #ffffff;
+}
+
+#closing{
+    margin: 0 auto;
+    max-width: 800px;
+    background-color: #23272a;
+    height: 100px;
+    padding-top: 30px;
+}
+
+#closing div{
+    color: #ffffff;
+}
+
+footer div div{
+    float: left;
+}
+
+footer div button{
+    float: right;
+}
+
+hr{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
