@@ -72,10 +72,11 @@ header nav ul li a{
     gap: 30px;
 }
 
-#scarica{
+.scarica{
     padding: 12px;
     border-radius: 30px;
     background-color: #ffffff;
+    cursor: pointer;
 }
 
 #apri{
@@ -83,6 +84,7 @@ header nav ul li a{
     border-radius: 30px;
     background-color: #23272a;
     color: #ffffff;
+    cursor: pointer;
 }
 
 main section{
@@ -107,6 +109,41 @@ main section div h3, main section div p{
 #immagine{
     width: 250px;
     height: 200px;
-    background-color: crimson;
+    background-color: lightseagreen;
+}
+
+
+article{
+    background-color: #f6f6f6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding-bottom: 50px;
+}
+
+
+article div{
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+article div h3, article div p{
+    text-align: center;
+}
+
+article div h3{
+    padding-top: 50px;
+}
+
+article div p{
+    padding-top: 20px;
+}
+
+
+#immaginebig{
+    width: 800px;
+    height: 200px;
+    background-color: lightseagreen;
 }
 
