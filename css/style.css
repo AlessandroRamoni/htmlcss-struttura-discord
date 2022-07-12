@@ -41,18 +41,18 @@ header nav ul li a{
 }
 
 #accedi{
-    position: absolute;
-    right: 450px;
-    top: 10px;
+    position: relative;
+    left: 900px;
+    top: -30px;
     padding: 8px;
     border-radius: 30px;
     cursor: pointer;
 }
 
 #logo{
-    position: absolute;
-    left: 450px;
-    top: 10px;
+    position: relative;
+    left: 200px;
+    top: -30px;
 }
 
 .titolo{
@@ -230,7 +230,7 @@ hr{
 }
 
 .flex{
-    max-width: 800px;
+    /* max-width: 800px; */
     margin: 0 auto;
     display: flex;
 } 
