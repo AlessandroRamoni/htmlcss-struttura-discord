@@ -24,15 +24,17 @@ header nav ul{
     margin: 0;
     padding: 0;
     list-style: none;
-} 
-
-header nav ul{
     display: flex;
     justify-content: center;
-}
+    max-width: 800px;
+    margin: 0 auto;
+
+} 
+
 
 header nav ul li {
-    padding: 20px 15px 10px;
+    margin: 20px 15px 10px;
+    padding: 8px;
 }
 
 header nav ul li a{
@@ -40,25 +42,34 @@ header nav ul li a{
     color: #ffffff;
 }
 
+header nav ul li:first-child{
+    flex-grow: 1;
+    text-align: start;
+}
+
+header nav ul li:last-child{
+    flex-grow: 1;
+    text-align: end;
+}
+
+
+.flex_button{
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
 #accedi{
-    position: relative;
-    left: 900px;
-    top: -30px;
-    padding: 8px;
     border-radius: 30px;
     cursor: pointer;
 }
 
-#logo{
-    position: relative;
-    left: 200px;
-    top: -30px;
-}
 
 .titolo{
     margin: 0 auto;
     max-width: 800px;
-    /* margin-top: 70px; */
+    margin-top: 70px;
 }
 
 .titolo h1, .titolo p{
@@ -230,7 +241,6 @@ hr{
 }
 
 .flex{
-    /* max-width: 800px; */
     margin: 0 auto;
     display: flex;
 } 
@@ -239,10 +249,10 @@ hr{
     flex-direction: row-reverse;
 }
 
-#left{
-flex-basis: 60%;
+/* #left{
+flex-basis: 80%;
 }
 
 #right{
-flex-basis: 30%;
-}
+flex-basis: 20%;
+} */
