@@ -234,23 +234,22 @@ hr{
     color: #ffffff;
 }
 
-.container{
+/* .container{
     max-width: 1200px;
     margin: 0 auto;
-}
+} */
 
 .minicontainer{
     max-width: 800px;
-    /* margin: 0 auto; */
+    gap: 150px;
 }
 
-.minicontainer > *{
+/* .minicontainer > *{
     flex-basis: 50%;
-}
+} */
 
 .miniflex{
     display: flex;
-
 }
 
 .flex{
@@ -262,4 +261,5 @@ hr{
 
 .reverse{
     flex-direction: row-reverse;
+    gap: 150px;
 }
